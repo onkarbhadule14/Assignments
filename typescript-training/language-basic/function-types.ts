@@ -43,11 +43,11 @@ console.log(sum(10,20));
 
 //let add=(a:number,b:number)=>a+b;
 
-//let square = (a:number) => a*a;
+let square = (a:number) => a*a;
 
 //calling arrow function
 //console.log(add(10,20));
-//console.log(square(5));
+console.log(square(5));
 
 //3. Anonymous Function
 
@@ -55,10 +55,17 @@ console.log(sum(10,20));
 //Syntax of Anonymous Function
 // function(function){
 //     //function body
-// }
+// 
 
 //function with paremeter as function
+function mainFunction(  innerFunction: (a:number)=> number  ):void{
+  console.log(innerFunction(6));
+}
 
 
-
-
+// //calling function
+//  mainFunction( 
+//     function(a:number):number{
+//         return a * a;
+//     }
+//    );
