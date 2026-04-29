@@ -35,4 +35,3 @@ console.log("Is the person married? " + isMarried);
 //8. Person's occupation: "Software Engineer" 
 let occupation:string="Software Engineer";
 console.log("Person's occupation: " + occupation);
-
